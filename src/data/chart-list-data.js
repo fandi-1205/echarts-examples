@@ -935,6 +935,17 @@ export default [
   },
   {
     "category": [
+      "candlestick"
+    ],
+    "id": "candlestick-large-change",
+    "ts": true,
+    "tags": [],
+    "title": "Candlestick Large Data Change",
+    "titleCN": "K线图 数据量过大的时候进行数据分组和图表切换",
+    "difficulty": 10
+  },
+  {
+    "category": [
       "custom"
     ],
     "id": "custom-bar-trend",
