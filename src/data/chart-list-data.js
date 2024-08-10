@@ -537,6 +537,17 @@ export default [
   },
   {
     "category": [
+      "custom"
+    ],
+    "id": "custom-dumbbell-plot",
+    "ts": true,
+    "tags": [],
+    "title": "Dumbbell Plot",
+    "titleCN": "使用自定系列绘制哑铃图",
+    "difficulty": 2
+  },
+  {
+    "category": [
       "custom",
       "dataZoom"
     ],
@@ -932,17 +943,6 @@ export default [
     "title": "Large Scale Candlestick",
     "titleCN": "大数据量K线图",
     "difficulty": 3
-  },
-  {
-    "category": [
-      "candlestick"
-    ],
-    "id": "candlestick-large-change",
-    "ts": true,
-    "tags": [],
-    "title": "Candlestick Large Data Change",
-    "titleCN": "K线图 数据量过大的时候进行数据分组和图表切换",
-    "difficulty": 10
   },
   {
     "category": [
@@ -2368,6 +2368,17 @@ export default [
     "tags": [],
     "title": "Candlestick Brush",
     "titleCN": "K 线图刷选",
+    "difficulty": 10
+  },
+  {
+    "category": [
+      "candlestick"
+    ],
+    "id": "candlestick-large-change",
+    "ts": true,
+    "tags": [],
+    "title": "Candlestick Large Data Change",
+    "titleCN": "K线图 数据量过大的时候进行数据分组和图表切换",
     "difficulty": 10
   },
   {
