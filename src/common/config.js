@@ -142,7 +142,9 @@ const SCRIPT_URLS = {
 
   bmapLibJS:
     'https://api.map.baidu.com/api?v=3.0&ak=KOmVjPVUAey1G2E8zNhPiuQ6QiEmAwZu',
-  echartsBMapJS: '/dist/extension/bmap.min.js'
+  echartsBMapJS: '/dist/extension/bmap.min.js',
+
+  echartsGraphModularityJS: `${CDN_ROOT}echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js`
 };
 
 const SCRIPT_URLS_CN = {
@@ -159,14 +161,16 @@ const SCRIPT_URLS_CN = {
   echartsStatJS: `${CDN_ROOT_CN_NPM}echarts-stat/latest/files/dist/ecStat.min.js`,
   echartsGLJS: `${CDN_ROOT_CN_NPM}echarts-gl/2/files/dist/echarts-gl.min.js`,
   datGUIMinJS: `${CDN_ROOT_CN}dat-gui/0.6.5/dat.gui.min.js`,
-  monacoDir: `https://cdn.staticfile.net/monaco-editor/0.27.0/min/vs`,
+  monacoDir: `${CDN_ROOT_CN_NPM}monaco-editor/0.27.0/min/vs`,
   aceDir: `${CDN_ROOT_CN_NPM}ace-builds/1.4.12/files/src-min-noconflict`,
   prettierDir: `${CDN_ROOT_CN}prettier/2.3.2`,
   highlightjsDir: `${CDN_ROOT_CN_NPM}@highlightjs/cdn-assets/11.8.0/files`,
   seedrandomJS: `${CDN_ROOT_CN}seedrandom/3.0.5/seedrandom.min.js`,
-  jQueryJS: `https://cdn.staticfile.net/jquery/3.7.1/jquery.min.js`,
-  acornJS: `https://cdn.staticfile.net/acorn/8.7.1/acorn.min.js`,
+  jQueryJS: `${CDN_ROOT_CN_NPM}jquery/3.7.1/files/dist/jquery.min.js`,
+  acornJS: `${CDN_ROOT_CN_NPM}acorn/8.7.1/files/dist/acorn.js`,
 
   bmapLibJS: SCRIPT_URLS.bmapLibJS,
-  echartsBMapJS: SCRIPT_URLS.echartsBMapJS
+  echartsBMapJS: SCRIPT_URLS.echartsBMapJS,
+
+  echartsGraphModularityJS: `${CDN_ROOT_CN_NPM}echarts-graph-modularity/2/files/dist/echarts-graph-modularity.min.js`
 };
